@@ -1,0 +1,9 @@
+UNLICENSED — All Rights Reserved
+
+This project is made publicly available for viewing and evaluation purposes only.
+
+Permission is NOT granted to use, copy, reproduce, modify, publish, distribute, sublicense, or create derivative works from this software in any form.
+
+If you wish to contribute to this project, please open a pull request or issue. Contributions may be reviewed and included at the author's sole discretion. All contributions are submitted with the understanding that full copyright and usage rights remain with the original author.
+
+© 2025 [Your Name]. All rights reserved.
