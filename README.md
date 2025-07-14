@@ -10,6 +10,8 @@ You may **not** use, copy, modify, distribute, or incorporate this code into any
 If you notice an issue or would like to contribute, feel free to open a pull request or GitHub issue.  
 All contributions are considered under the condition that the author retains full rights to accept, modify, or reject them.
 
+## Description
+
 CraftTree is a TypeScript-based crafting engine designed to analyze crafting systems across multiple games. It dynamically ingests crafting recipes and item price data, builds a dependency graph, and determines the most cost-effective crafting strategies using memoized graph traversal.
 
 The project is architected around:
