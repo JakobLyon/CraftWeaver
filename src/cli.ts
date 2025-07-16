@@ -1,7 +1,8 @@
 #!/usr/bin/env node
+
 import { calculateCostPlan } from './engine';
 import { schema, prices } from './adapters/bitcraft/bitcraft-adapter';
-import type { ParsedArgs, ReportOutput } from 'types';
+import type { ParsedArgs, PlanningResult, ReportOutput, ResolvedCostNode } from 'types';
 
 // --- Simple CLI args parser ---
 function parseArgs(): ParsedArgs {
@@ -56,7 +57,7 @@ function formatAsTable(result: PlanningResult): string {
   lines.push(`🛠️  Crafting Cost: $${result.totalCraftCost.toFixed(2)}`);
   lines.push(`💡 Savings: $${result.savings.toFixed(2)}`);
   if (result.craftingTimeSeconds) {
-    lines.push(`⏱️  Total Crafting Time: ${result.craftingTimeSeconPds}s`);
+    lines.push(`⏱️  Total Crafting Time: ${result.craftingTimeSeconds}s`);
   }
   lines.push('\nRecipe Tree:\n');
   printNode(result.root);
